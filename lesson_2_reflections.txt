@@ -7,3 +7,18 @@ Git does not make the first commit since that we won't be able to enter a commit
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is sort of an intermediary between the working dir and the repo. it holds the files to be committed and allows the user to commit according to their own logic and in as many groups as they want
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+We can use git diff to see that we have included only the relevant files that we want to commit.
+We can also use git diff --staged to see the difference between the staging area and the repository to see what changes we haven't committed and if it makes sense to commit them. 
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams give a particularly clean understanding of reachability and helps to better explain complex topics like branches in git
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Cases where it makes sense to make a new branch is when we are not sure if a new feature will be a part of the main branch or not. Thus it is a good idea to make a new branch and see how that feature plays out first.
