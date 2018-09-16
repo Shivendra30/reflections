@@ -28,3 +28,10 @@ The diagrams give a particularly clean understanding of reachability and helps t
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Cases where it makes sense to make a new branch is when we are not sure if a new feature will be a part of the main branch or not. Thus it is a good idea to make a new branch and see how that feature plays out first.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Git's automatic merging removes the overhead from the developer's hands in order to decide the order of the commits when two branches have been merged and how the changes have been kept. 
+Manual merging can help to decide conflicts and make some decisions that Git cannot. For example, when faced with the different versions of the same code, git does not know what to do. 
+
+
