@@ -14,6 +14,12 @@ We can use git diff to see that we have included only the relevant files that we
 We can also use git diff --staged to see the difference between the staging area and the repository to see what changes we haven't committed and if it makes sense to commit them. 
 
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is that the commits now have a common history and there is no longer a need to see the commits by checking out two different branches. 
+The diagram represents it so as the branches now have a common history sorted according to timestamp and the branch merged into the other can then be deleted since the commits of that branch can be accessed from the merged branch itself.
+
+
 How do the diagrams help you visualize the branch structure?
 
 The diagrams give a particularly clean understanding of reachability and helps to better explain complex topics like branches in git
