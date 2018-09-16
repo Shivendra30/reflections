@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When we initialize the repository git creates a new repo with the file ".git" and also without any commits.
+Git does not make the first commit since that we won't be able to enter a commit message.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is sort of an intermediary between the working dir and the repo. it holds the files to be committed and allows the user to commit according to their own logic and in as many groups as they want
