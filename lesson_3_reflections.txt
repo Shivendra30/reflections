@@ -1,0 +1,2 @@
+Q - When would you want to create a remote repository rather than keeping all your work local?
+A - I would want to create a remote repository when I feel that I can make the changes/commits public. Uploading every change to Github from the start of the project does not make sense since they might not be ready to be disclosed yet.
