@@ -14,3 +14,6 @@ A - The benefit of having he copy of the last state of the remote stored locally
 
 Q - How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 A - Keeping track of versions would definitely be harder. That would happen through a set of emails between team members. However, people can that way avoid understanding some complex concepts and use the conventional ways. Still, for developers, it almost feels like an indispensible tool for working in teams. 
+
+Q - When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+A - I would want to make a new branch when I am working ona  feature/change which I am not sure should be a part of the program that I originally have. Thus, instead of messing up the master branch, I can play around in a separate branch and then see if the feature is worth including. The upside of not doing this is that you would have to do some extra work to figure out when to merge a branch when you can simply continue making commits on the master branch itself.
