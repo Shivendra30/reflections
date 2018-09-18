@@ -3,3 +3,10 @@ A - I would want to create a remote repository when I feel that I can make the c
 
 Q - Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A - I would always prefer pulling the changes manually since other people might be working on branches that I don't want to touch. Also while working in a team, when the branches made by a group of people need to be checked or is approved to be included as a feature then it may be a good idea for me to manually pull that branch and not before that.
+
+Q - Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A - Forks occur when you clone a GitHub repository using Github only and not on your local computer. Through GitHub's fork feature, you can add a repository in your account on GitHub's servers and also link to the original creator.
+    Clones occur when you simply clone a repository from GitHub to your own computer without giving the credit to anyone. You can then create a new repo in your account and push the changes there without anyone knowing that you cloned an existing repo.
+    Branches are used when you want to work on a new feature which you think is not ready to be a part of the master branch. They may also be used by people who are a part of your team.
+
+
