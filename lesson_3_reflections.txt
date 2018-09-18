@@ -9,4 +9,5 @@ A - Forks occur when you clone a GitHub repository using Github only and not on 
     Clones occur when you simply clone a repository from GitHub to your own computer without giving the credit to anyone. You can then create a new repo in your account and push the changes there without anyone knowing that you cloned an existing repo.
     Branches are used when you want to work on a new feature which you think is not ready to be a part of the master branch. They may also be used by people who are a part of your team.
 
-
+Q - What is the benefit of having a copy of the last known state of the remote stored locally?
+A - The benefit of having he copy of the last state of the remote stored locally is that it helps to compare the files and lets us know if our local system is ahead, behind, up-to-date or out-of-sync with our remote repository.
