@@ -11,3 +11,6 @@ A - Forks occur when you clone a GitHub repository using Github only and not on 
 
 Q - What is the benefit of having a copy of the last known state of the remote stored locally?
 A - The benefit of having he copy of the last state of the remote stored locally is that it helps to compare the files and lets us know if our local system is ahead, behind, up-to-date or out-of-sync with our remote repository.
+
+Q - How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+A - Keeping track of versions would definitely be harder. That would happen through a set of emails between team members. However, people can that way avoid understanding some complex concepts and use the conventional ways. Still, for developers, it almost feels like an indispensible tool for working in teams. 
